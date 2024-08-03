@@ -1,0 +1,12 @@
+name: gym-env
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - gym
+    - gym[atari]
+    - gym[classic_control]
+    - jupyter
+    - numpy==1.23.1
