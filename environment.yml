@@ -6,7 +6,12 @@ dependencies:
   - pip
   - pip:
     - gym
-    - gym[atari]
-    - gym[classic_control]
+    - 'gym[atari]'
+    - 'gym[classic_control]'
     - jupyter
     - numpy==1.23.1
+    - tqdm
+    - torch
+    - 'gym[accept-rom-license]'
+    - scikit-image
+    - matplotlib
