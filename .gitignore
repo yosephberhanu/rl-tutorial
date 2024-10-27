@@ -152,3 +152,5 @@ venv/
 
 # JetBrains specific files
 .idea/
+
+__pycache__
